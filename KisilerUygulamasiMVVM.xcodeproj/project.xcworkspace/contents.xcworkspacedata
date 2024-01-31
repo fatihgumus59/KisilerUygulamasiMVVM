@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/fatihgumus/code/swift/ios bootcamp/KisilerUygulamasiMVVM/KisilerUygulamasiMVVM.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

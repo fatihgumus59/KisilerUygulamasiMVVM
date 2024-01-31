@@ -47,8 +47,6 @@ class Anasayfa: UIViewController{
         }
     }
     
-   
-    
 }
 
 extension Anasayfa : UISearchBarDelegate{
@@ -78,7 +76,7 @@ extension Anasayfa : UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let kisi = kisilerListesi[indexPath.row]
         performSegue(withIdentifier: "toDetay", sender: kisi)
-        tableView.deselectRow(at: indexPath, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)// içine tıklayıp geri çıktıldığında seçili olmasını kaldırır
     }
         
     //seçili nesneyi sürükleyerek işlem yapmak için
